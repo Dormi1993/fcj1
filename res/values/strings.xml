@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">FDoctor</string>
+    <string name="system_name">家用血液检测服务系统</string>
+    <string name="introduction">这是一款与Web服务端相联的家用血液检测服务系统，具有小型化、智能化的特点。检测设备通过蓝牙与安卓APP通讯，安卓APP与Web服务端进行信息交互。主要功能有如下两点：1. 利用Android开发平台设计手机客户端APP，提供数据缓存的作用；2. 基于J2EE开发相应服务端应用，提供数据分析处理、数据本地化存储、病情预测、结果展示等功能</string>
+    <string name="ble_not_supported">你的手机不支持BLE</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">设备地址:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">已断开连接</string>
+    <string name="title_devices">BLE 设备扫描</string>
+    <string name="error_bluetooth_not_supported">你的手机不支持蓝牙</string>
+
+    <string name="unknown_device">未知设备</string>
+    <string name="unknown_characteristic">未知特征值</string>
+    <string name="unknown_service">未知服务</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="device_rssi">rssi信号</string>
+    <string name="text_detail">detail</string>
+    <string name="username">用户名</string>
+    <string name="password">密  码</string>
+    <string name="login_button">登 录</string>
+    <string name="login">登录界面</string>
+
+    
+</resources>
